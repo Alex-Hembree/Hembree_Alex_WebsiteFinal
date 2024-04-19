@@ -1,0 +1,220 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    border-spacing: 0;
+    padding: 0;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-family: "basic-sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+    margin: 0px;
+}
+.header {
+    background-color:#ECF0F1;
+    padding: 44px; 
+}
+.justify-content-center {
+    justify-content: center;
+}
+.menu {
+    font-family: "basic-sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0px;
+}
+.text-width {
+    max-width: 492px;
+}
+.order {
+    font-family: "basic-sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    margin: 0px;
+}
+.order-black {
+    font-family: "basic-sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: black;
+    margin-top: 0px;
+}
+.margin-bottom {
+    margin-bottom: 100px;
+}
+.menu-gap {
+    gap: 0px 12px;
+}
+.menu-gap img {
+    max-width: 100%;
+    height:auto;
+}
+.order-gap {
+    gap: 0px 150px;
+}
+.social-gap {
+    gap: 0px 25px;
+}
+p {
+    font-family: "basic-sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: large;
+    margin-bottom: 100px;
+    color: white;
+}
+.text-align-center {
+    text-align:center;
+}
+.space-between {
+    justify-content: space-between;
+}
+.flex-container {
+    display: flex;
+}
+.order-flex-container {
+    display: flex;
+}
+.flex-end {
+    justify-content: flex-end; 
+}
+.max-width-lg {
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.gap-sm {
+    gap: 25px;
+}
+.align-items-center {
+    align-items: center;
+}
+.bg-white {
+    background-color: #ECF0F1;
+    padding-top: 84px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.bg-blue {
+    background-color: #2C3F50;
+    padding: 100px 124px;
+}
+.bg-red {
+    background-color: #E84C3D;
+    padding: 86px 124px;
+}
+.hero-image {
+    background-image: url("../images/pexels-fox-6525933.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 853px;
+    display: flex;
+    justify-content: center;
+}
+.hero-button {
+    padding: 62px 0px;
+    max-width: 1032px;
+    justify-content: center;
+}
+.hero-container {
+    max-width: 510px;
+}
+.red-button {
+    font-family: "basic-sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #E84C3D;
+    border: none;
+    padding: 18px 64px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.black-button {
+    font-family: "basic-sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: black;
+    border: none;
+    padding: 18px 64px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.h-menu {
+    display: none;
+    border: none;
+    background-color: transparent;
+}
+.h-menu:hover {
+    cursor: pointer;
+}
+.material-symbols-outlined {
+    font-size: 50px !important;
+}
+
+@media (max-width: 500px) {
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    .nav-links {
+        display: none;
+    }
+    .h-menu {
+        display: inline-block;
+    }
+    .nav {
+        justify-content: space-between;
+    }
+    .centered {
+        font-size: 70px;
+    }
+    .flex-container {
+        flex-wrap: wrap;
+    }
+    .child-container {
+        flex-basis: 100%;
+    }
+    .order-flex-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .text-width {
+        padding-top: 50px;
+    }
+    .bg-white {
+        padding-bottom: 73px;
+    }
+    .bg-blue {
+        padding-left: 19px;
+        padding-right: 19px;
+    }
+    .bg-red {
+        padding-left: 19px;
+        padding-right: 19px;
+    }
+    .social {
+        margin-bottom: 21.440px;
+    }
+    .menu-gap img {
+        padding: 19px;
+    }
+    .logo {
+        width: 162px;
+    }
+}
